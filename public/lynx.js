@@ -4,7 +4,8 @@ $(window).on("load", function() {
       try {
         //var result = await window.lynxMobile.requestSetAccountName();
         let result = await window.lynxMobile.requestSetAccount("sessiontry1222");
-        $('#res').html(JSON.stringify(result));
+        $('#res').html(JSON.stringify(result['account']['total_resources']['owner']))
+	$('#acctinfo').html(JSON.stringify(result));
       } catch (err) {
         console.log(err);
       }
