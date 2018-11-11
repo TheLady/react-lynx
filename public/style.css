@@ -1,0 +1,45 @@
+.headerImage {
+  height: 300px;
+  width: 100%;
+  /* background: linear-gradient(to bottom, #1fa2ff, #12d8fa, #a6ffcb); */
+  background: #22a301;
+  text-align: center;
+}
+.headTitle {
+
+  font-size: x-large;
+  color: white;
+}
+#res{
+ word-wrap: break-word"
+}
+#userimg{
+  margin-top:4%;
+}
+.panel{
+  margin-top: 2rem !important;
+  box-shadow: 0px 12px 30px 3px rgba(169, 168, 168, 0.41);
+  background: white !important;
+  border-color: none !important;
+  border-style: none !important;
+
+}
+.title-bar.dark {
+    background: #232323;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.title-bar {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: visible;
+}
+#topbar{
+  background: #232323
+}
+.merchcards{
+  text-align:center;
+}
